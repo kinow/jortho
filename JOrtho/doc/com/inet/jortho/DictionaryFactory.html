@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>DictionaryFactory (JOrtho - Java Spell Checker)</title>
+    <meta name="keywords" content="com.inet.jortho.DictionaryFactory,DictionaryFactory class" />
+    <meta name="generator" content="SinjDoc 0.5" />
+    <link href="../../../stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="Index" href="../../../index-all.html" />
+    <link rel="Start" href="../../../overview-summary.html" />
+    <link rel="Up" href="package-summary.html" />
+    <link rel="Help" href="../../../help-doc.html" />
+  </head>
+  <body class="classPage bigframe">
+   <div class="navbar">
+    <p class="nav navtop">
+      <span class="over"><a href="../../../overview-summary.html">Overview</a></span>
+      <span class="package"><a href="package-summary.html">Package</a></span>
+      <span class="class selected">Class</span>
+      <span class="use"><a href="class-use/DictionaryFactory.html">Use</a></span>
+      <span class="tree"><a href="package-tree.html">Tree</a></span>
+      <span class="deprecated"><a href="../../../deprecated-list.html">Deprecated</a></span>
+      <span class="index"><a href="../../../index-all.html">Index</a></span>
+      <span class="help"><a href="../../../help-doc.html">Help</a></span>
+    </p>
+    <p class="nav navmid">
+      <span class="prevnext">
+       <span class="prev">Prev Class</span>
+       <span class="next">Next Class</span>
+      </span>
+      <span class="framesel">
+       <span class="frames"><a href="../../../index.html" target="_top">Frames</a></span>
+       <span class="noframes"><a href="DictionaryFactory.html" target="_top">NoFrames</a></span>
+      </span>
+      <span class="allclasses"><a href="../../../allclasses-noframe.html">All Classes</a></span>
+   </p>
+   <p class="nav navbot">
+      <span class="summary">Summary:
+       <span class="nested">Nested</span>
+       <span class="field">Field</span>
+       <span class="constr"><a href="#constructor_summary">Constr</a></span>
+       <span class="method"><a href="#method_summary">Method</a></span>
+      </span>
+      <span class="detail">Detail:
+       <span class="field">Field</span>
+       <span class="constr"><a href="#constructor_detail">Constr</a></span>
+       <span class="method"><a href="#method_detail">Method</a></span>
+      </span>
+   </p>
+    <div class="navtitle">
+     JOrtho - Java Spell Checker
+    </div>
+    <p class="clear"><!--empty--></p>
+   </div>
+   <p class="packageName">com.inet.jortho</p>
+   <h1>  Class  DictionaryFactory</h1>
+<!--
+   <p class="enclosing">
+   Enclosing class/interface: @OUTER@
+   </p>
+-->
+
+
+   <!-- XXX class hierarchy diagram goes here -->
+<!--
+   
+   <p class="directSubclasses">
+   Direct known subclasses: @ALL_SUBCLASSES@
+   </p>
+-->
+
+
+   <p class="declaration">
+     class 
+   <span class="className">DictionaryFactory</span>
+   
+   
+      
+      <span class="extends">extends Object</span>
+      
+      
+   
+   </p>
+
+   <div class="description">
+    
+ With the DictionaryFactory you can create / load a Dictionary. A Dictionary is list of word with a API for searching. 
+ The list is saved internal as a tree.<p class="tag tag_see"><span class="tagName">See Also:</span> <span class="tagContents"><a href="Dictionary.html" class="classRef">Dictionary</a></span> </p>
+
+   </div>
+
+
+
+
+
+   <table class="constructor_summary summary">
+     <tr><th colspan="2"><a name="constructor_summary" id="constructor_summary">Constructor Summary</a></th></tr>
+
+     <tr><td> </td><td><span class="memberName"><a href="#DictionaryFactory()" class="constructorRef">DictionaryFactory</a>()</span><div class="memberDescription">
+ Empty Constructor.</div></td></tr>
+
+   </table>
+
+
+
+
+   <table class="method_summary summary">
+     <tr><th colspan="2"><a name="method_summary" id="method_summary">Method Summary</a></th></tr>
+
+     <tr><td>  void</td><td><span class="memberName"><a href="#add(<unknown>.String)" class="methodRef">add</a>(String word)</span><div class="memberDescription">
+ Add a word to the tree. </div></td></tr>
+
+
+
+     <tr><td>  Dictionary</td><td><span class="memberName"><a href="#create()" class="methodRef">create</a>()</span><div class="memberDescription">
+ Create from the data in this factory a Dictionary object. </div></td></tr>
+
+
+
+     <tr><td>  void</td><td><span class="memberName"><a href="#loadWordList(java.net.URL)" class="methodRef">loadWordList</a>(URL filename)</span><div class="memberDescription">
+ Load the directory from a compressed list of words with UTF8 encoding. </div></td></tr>
+
+
+
+     <tr><td>  void</td><td><span class="memberName"><a href="#loadWords(java.util.Iterator)" class="methodRef">loadWords</a>(Iterator&lt;String&gt; words)</span><div class="memberDescription"></div></td></tr>
+
+   </table>
+
+
+
+<!--
+   <p class="inherited">
+    <span class="header">Methods inherited from class java.util.<a
+   href="AbstractCollection.html">AbstractCollection</a></span>
+    <a href="#addAll">addAll</a>
+    <a href="#contains">contains</a>
+   </p>
+   <p class="inherited">
+    <span class="header">Methods inherited from class java.lang.<a
+   href="Object.html">Object</a></span>
+    <a href="#addAll">clone</a>
+    <a href="#contains">finalize</a>
+   </p>
+   <p class="inherited">
+    <span class="header">Methods inherited from interface java.util.<a
+   href="List.html">List</a></span>
+    <a href="#addAll">addAll</a>
+    <a href="#contains">contains</a>
+   </p>
+-->
+
+
+
+
+
+   <h2><a name="constructor_detail" id="constructor_detail">Constructor Detail</a></h2>
+
+   <h3><a name="DictionaryFactory()" id="DictionaryFactory()">DictionaryFactory</a></h3>
+   <div class="memberName">public  DictionaryFactory()</div>
+   <div class="memberDescription">
+ Empty Constructor.</div>
+
+
+
+
+   <h2><a name="method_detail" id="method_detail">Method Detail</a></h2>
+
+   <h3><a name="add(<unknown>.String)" id="add(<unknown>.String)">add</a></h3>
+   <div class="memberName">public  void add(String word)</div>
+   <div class="memberDescription">
+ Add a word to the tree. If it already exist then it has no effect.<p class="tag tag_param"><span class="tagName">Parameters:</span> <span class="tagContents">word the new word.</span> </p>
+</div>
+
+
+   <h3><a name="create()" id="create()">create</a></h3>
+   <div class="memberName">public  Dictionary create()</div>
+   <div class="memberDescription">
+ Create from the data in this factory a Dictionary object. If there 
+ are no word added then the Dictionary is empty. The Dictionary need fewer memory as the DictionaryFactory.<p class="tag tag_return"><span class="tagName">Returns:</span> <span class="tagContents">a Dictionary object.</span> </p>
+</div>
+
+
+   <h3><a name="loadWordList(java.net.URL)" id="loadWordList(java.net.URL)">loadWordList</a></h3>
+   <div class="memberName">public  void loadWordList(URL filename)</div>
+   <div class="memberDescription">
+ Load the directory from a compressed list of words with UTF8 encoding. The words must be delimited with
+ newlines. This method can be called multiple times.
+<p class="tag tag_param"><span class="tagName">Parameters:</span> <span class="tagContents">filename
+            the name of the file</span> </p>
+<p class="tag tag_throws"><span class="tagName">Throws:</span> <span class="tagContents">IOException
+             If an I/O error occurs.</span> <span class="tagContents">NullPointerException
+             If filename is null.</span> </p>
+</div>
+
+
+   <h3><a name="loadWords(java.util.Iterator)" id="loadWords(java.util.Iterator)">loadWords</a></h3>
+   <div class="memberName">public  void loadWords(Iterator&lt;String&gt; words)</div>
+   <div class="memberDescription"></div>
+
+   
+   <div class="navbar">
+    <p class="nav navtop">
+      <span class="over"><a href="../../../overview-summary.html">Overview</a></span>
+      <span class="package"><a href="package-summary.html">Package</a></span>
+      <span class="class selected">Class</span>
+      <span class="use"><a href="class-use/DictionaryFactory.html">Use</a></span>
+      <span class="tree"><a href="package-tree.html">Tree</a></span>
+      <span class="deprecated"><a href="../../../deprecated-list.html">Deprecated</a></span>
+      <span class="index"><a href="../../../index-all.html">Index</a></span>
+      <span class="help"><a href="../../../help-doc.html">Help</a></span>
+    </p>
+    <p class="nav navmid">
+      <span class="prevnext">
+       <span class="prev">Prev Class</span>
+       <span class="next">Next Class</span>
+      </span>
+      <span class="framesel">
+       <span class="frames"><a href="../../../index.html" target="_top">Frames</a></span>
+       <span class="noframes"><a href="DictionaryFactory.html" target="_top">NoFrames</a></span>
+      </span>
+      <span class="allclasses"><a href="../../../allclasses-noframe.html">All Classes</a></span>
+   </p>
+   <p class="nav navbot">
+      <span class="summary">Summary:
+       <span class="nested">Nested</span>
+       <span class="field">Field</span>
+       <span class="constr"><a href="#constructor_summary">Constr</a></span>
+       <span class="method"><a href="#method_summary">Method</a></span>
+      </span>
+      <span class="detail">Detail:
+       <span class="field">Field</span>
+       <span class="constr"><a href="#constructor_detail">Constr</a></span>
+       <span class="method"><a href="#method_detail">Method</a></span>
+      </span>
+   </p>
+    <div class="navtitle">
+     JOrtho - Java Spell Checker
+    </div>
+    <p class="clear"><!--empty--></p>
+   </div>
+   <div class="bottom"><i>Copyright &#169; 2005 - 2012 i-net software. All Rights Reserved.</i></div>
+   </body>
+</html>

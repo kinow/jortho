@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Dictionary (JOrtho - Java Spell Checker)</title>
+    <meta name="keywords" content="com.inet.jortho.Dictionary,Dictionary class" />
+    <meta name="generator" content="SinjDoc 0.5" />
+    <link href="../../../stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="Index" href="../../../index-all.html" />
+    <link rel="Start" href="../../../overview-summary.html" />
+    <link rel="Up" href="package-summary.html" />
+    <link rel="Help" href="../../../help-doc.html" />
+  </head>
+  <body class="classPage bigframe">
+   <div class="navbar">
+    <p class="nav navtop">
+      <span class="over"><a href="../../../overview-summary.html">Overview</a></span>
+      <span class="package"><a href="package-summary.html">Package</a></span>
+      <span class="class selected">Class</span>
+      <span class="use"><a href="class-use/Dictionary.html">Use</a></span>
+      <span class="tree"><a href="package-tree.html">Tree</a></span>
+      <span class="deprecated"><a href="../../../deprecated-list.html">Deprecated</a></span>
+      <span class="index"><a href="../../../index-all.html">Index</a></span>
+      <span class="help"><a href="../../../help-doc.html">Help</a></span>
+    </p>
+    <p class="nav navmid">
+      <span class="prevnext">
+       <span class="prev">Prev Class</span>
+       <span class="next">Next Class</span>
+      </span>
+      <span class="framesel">
+       <span class="frames"><a href="../../../index.html" target="_top">Frames</a></span>
+       <span class="noframes"><a href="Dictionary.html" target="_top">NoFrames</a></span>
+      </span>
+      <span class="allclasses"><a href="../../../allclasses-noframe.html">All Classes</a></span>
+   </p>
+   <p class="nav navbot">
+      <span class="summary">Summary:
+       <span class="nested">Nested</span>
+       <span class="field">Field</span>
+       <span class="constr"><a href="#constructor_summary">Constr</a></span>
+       <span class="method"><a href="#method_summary">Method</a></span>
+      </span>
+      <span class="detail">Detail:
+       <span class="field">Field</span>
+       <span class="constr"><a href="#constructor_detail">Constr</a></span>
+       <span class="method"><a href="#method_detail">Method</a></span>
+      </span>
+   </p>
+    <div class="navtitle">
+     JOrtho - Java Spell Checker
+    </div>
+    <p class="clear"><!--empty--></p>
+   </div>
+   <p class="packageName">com.inet.jortho</p>
+   <h1>  Class  Dictionary</h1>
+<!--
+   <p class="enclosing">
+   Enclosing class/interface: @OUTER@
+   </p>
+-->
+
+
+   <!-- XXX class hierarchy diagram goes here -->
+<!--
+   
+   <p class="directSubclasses">
+   Direct known subclasses: @ALL_SUBCLASSES@
+   </p>
+-->
+
+
+   <p class="declaration">final
+     class 
+   <span class="className">Dictionary</span>
+   
+   
+      
+      <span class="extends">extends DictionaryBase</span>
+      
+      
+   
+   </p>
+
+   <div class="description">
+   
+ A container for a word list.
+   </div>
+
+
+
+
+
+   <table class="constructor_summary summary">
+     <tr><th colspan="2"><a name="constructor_summary" id="constructor_summary">Constructor Summary</a></th></tr>
+
+     <tr><td> </td><td><span class="memberName"><a href="#Dictionary()" class="constructorRef">Dictionary</a>()</span><div class="memberDescription">
+ Create an empty Dictionary.</div></td></tr>
+
+
+
+     <tr><td> </td><td><span class="memberName"><a href="#Dictionary(char[])" class="constructorRef">Dictionary</a>(char[] tree)</span><div class="memberDescription">
+ Create an Dictionary from a serialize Dictionary. </div></td></tr>
+
+   </table>
+
+
+
+
+   <table class="method_summary summary">
+     <tr><th colspan="2"><a name="method_summary" id="method_summary">Method Summary</a></th></tr>
+
+     <tr><td>  void</td><td><span class="memberName"><a href="#add(<unknown>.String)" class="methodRef">add</a>(String word)</span><div class="memberDescription">
+ Add a word to the tree. </div></td></tr>
+
+
+
+     <tr><td>  int</td><td><span class="memberName"><a href="#getDataSize()" class="methodRef">getDataSize</a>()</span><div class="memberDescription">
+ Get the size of chars that this dictionary need in memory.</div></td></tr>
+
+
+
+     <tr><td>  void</td><td><span class="memberName"><a href="#load(<unknown>.String)" class="methodRef">load</a>(String filename)</span><div class="memberDescription">
+ Load the directory from a compressed file.</div></td></tr>
+
+
+
+     <tr><td>  void</td><td><span class="memberName"><a href="#load(<unknown>.InputStream)" class="methodRef">load</a>(InputStream stream)</span><div class="memberDescription">
+ Load the directory from a compressed stream.</div></td></tr>
+
+
+
+     <tr><td>  long</td><td><span class="memberName"><a href="#save(<unknown>.String)" class="methodRef">save</a>(String filename)</span><div class="memberDescription">
+ Save this dictionary to a compressed file.</div></td></tr>
+
+
+
+     <tr><td>  void</td><td><span class="memberName"><a href="#save(<unknown>.OutputStream)" class="methodRef">save</a>(OutputStream stream)</span><div class="memberDescription">
+ Save this dictionary to the OutputStream. </div></td></tr>
+
+
+
+     <tr><td>  char[]</td><td><span class="memberName"><a href="#toArray()" class="methodRef">toArray</a>()</span><div class="memberDescription">
+ Convert the directory tree to char array.</div></td></tr>
+
+   </table>
+
+
+
+<!--
+   <p class="inherited">
+    <span class="header">Methods inherited from class java.util.<a
+   href="AbstractCollection.html">AbstractCollection</a></span>
+    <a href="#addAll">addAll</a>
+    <a href="#contains">contains</a>
+   </p>
+   <p class="inherited">
+    <span class="header">Methods inherited from class java.lang.<a
+   href="Object.html">Object</a></span>
+    <a href="#addAll">clone</a>
+    <a href="#contains">finalize</a>
+   </p>
+   <p class="inherited">
+    <span class="header">Methods inherited from interface java.util.<a
+   href="List.html">List</a></span>
+    <a href="#addAll">addAll</a>
+    <a href="#contains">contains</a>
+   </p>
+-->
+
+
+
+
+
+   <h2><a name="constructor_detail" id="constructor_detail">Constructor Detail</a></h2>
+
+   <h3><a name="Dictionary()" id="Dictionary()">Dictionary</a></h3>
+   <div class="memberName">public  Dictionary()</div>
+   <div class="memberDescription">
+ Create an empty Dictionary.</div>
+
+
+   <h3><a name="Dictionary(char[])" id="Dictionary(char[])">Dictionary</a></h3>
+   <div class="memberName">public  Dictionary(char[] tree)</div>
+   <div class="memberDescription">
+ Create an Dictionary from a serialize Dictionary. This is used from the DictionaryFactory.<p class="tag tag_see"><span class="tagName">See Also:</span> <span class="tagContents"><a href="#toArray()" class="methodRef">toArray</a></span> <span class="tagContents"><a href="DictionaryFactory.html" class="classRef">DictionaryFactory</a></span> </p>
+</div>
+
+
+
+
+   <h2><a name="method_detail" id="method_detail">Method Detail</a></h2>
+
+   <h3><a name="add(<unknown>.String)" id="add(<unknown>.String)">add</a></h3>
+   <div class="memberName">public  void add(String word)</div>
+   <div class="memberDescription">
+ Add a word to the tree. If it already exist then it has no effect.<p class="tag tag_param"><span class="tagName">Parameters:</span> <span class="tagContents">word the new word.</span> </p>
+</div>
+
+
+   <h3><a name="getDataSize()" id="getDataSize()">getDataSize</a></h3>
+   <div class="memberName">public  int getDataSize()</div>
+   <div class="memberDescription">
+ Get the size of chars that this dictionary need in memory.</div>
+
+
+   <h3><a name="load(<unknown>.String)" id="load(<unknown>.String)">load</a></h3>
+   <div class="memberName">public  void load(String filename)</div>
+   <div class="memberDescription">
+ Load the directory from a compressed file.<p class="tag tag_param"><span class="tagName">Parameters:</span> <span class="tagContents">filename the name of the file.</span> </p>
+<p class="tag tag_throws"><span class="tagName">Throws:</span> <span class="tagContents">IOException if an I/O error occurs.</span> </p>
+</div>
+
+
+   <h3><a name="load(<unknown>.InputStream)" id="load(<unknown>.InputStream)">load</a></h3>
+   <div class="memberName">public  void load(InputStream stream)</div>
+   <div class="memberDescription">
+ Load the directory from a compressed stream.<p class="tag tag_param"><span class="tagName">Parameters:</span> <span class="tagContents">stream the InputStream</span> </p>
+<p class="tag tag_throws"><span class="tagName">Throws:</span> <span class="tagContents">IOException if an I/O error occurs.</span> </p>
+</div>
+
+
+   <h3><a name="save(<unknown>.String)" id="save(<unknown>.String)">save</a></h3>
+   <div class="memberName">public  long save(String filename)</div>
+   <div class="memberDescription">
+ Save this dictionary to a compressed file.<p class="tag tag_param"><span class="tagName">Parameters:</span> <span class="tagContents">filename the name of the file.</span> </p>
+<p class="tag tag_return"><span class="tagName">Returns:</span> <span class="tagContents">the size in bytes that was needed.</span> </p>
+<p class="tag tag_throws"><span class="tagName">Throws:</span> <span class="tagContents">IOException if an I/O error occurs.</span> </p>
+</div>
+
+
+   <h3><a name="save(<unknown>.OutputStream)" id="save(<unknown>.OutputStream)">save</a></h3>
+   <div class="memberName">public  void save(OutputStream stream)</div>
+   <div class="memberDescription">
+ Save this dictionary to the OutputStream. The data will be compressed. After finish the OutputStream is closed.<p class="tag tag_param"><span class="tagName">Parameters:</span> <span class="tagContents">stream the OutputStream</span> </p>
+<p class="tag tag_throws"><span class="tagName">Throws:</span> <span class="tagContents">IOException if an I/O error occurs.</span> </p>
+</div>
+
+
+   <h3><a name="toArray()" id="toArray()">toArray</a></h3>
+   <div class="memberName">public  char[] toArray()</div>
+   <div class="memberDescription">
+ Convert the directory tree to char array.<p class="tag tag_return"><span class="tagName">Returns:</span> <span class="tagContents">a char array that include the data of the dictionary.</span> </p>
+</div>
+
+   
+   <div class="navbar">
+    <p class="nav navtop">
+      <span class="over"><a href="../../../overview-summary.html">Overview</a></span>
+      <span class="package"><a href="package-summary.html">Package</a></span>
+      <span class="class selected">Class</span>
+      <span class="use"><a href="class-use/Dictionary.html">Use</a></span>
+      <span class="tree"><a href="package-tree.html">Tree</a></span>
+      <span class="deprecated"><a href="../../../deprecated-list.html">Deprecated</a></span>
+      <span class="index"><a href="../../../index-all.html">Index</a></span>
+      <span class="help"><a href="../../../help-doc.html">Help</a></span>
+    </p>
+    <p class="nav navmid">
+      <span class="prevnext">
+       <span class="prev">Prev Class</span>
+       <span class="next">Next Class</span>
+      </span>
+      <span class="framesel">
+       <span class="frames"><a href="../../../index.html" target="_top">Frames</a></span>
+       <span class="noframes"><a href="Dictionary.html" target="_top">NoFrames</a></span>
+      </span>
+      <span class="allclasses"><a href="../../../allclasses-noframe.html">All Classes</a></span>
+   </p>
+   <p class="nav navbot">
+      <span class="summary">Summary:
+       <span class="nested">Nested</span>
+       <span class="field">Field</span>
+       <span class="constr"><a href="#constructor_summary">Constr</a></span>
+       <span class="method"><a href="#method_summary">Method</a></span>
+      </span>
+      <span class="detail">Detail:
+       <span class="field">Field</span>
+       <span class="constr"><a href="#constructor_detail">Constr</a></span>
+       <span class="method"><a href="#method_detail">Method</a></span>
+      </span>
+   </p>
+    <div class="navtitle">
+     JOrtho - Java Spell Checker
+    </div>
+    <p class="clear"><!--empty--></p>
+   </div>
+   <div class="bottom"><i>Copyright &#169; 2005 - 2012 i-net software. All Rights Reserved.</i></div>
+   </body>
+</html>
